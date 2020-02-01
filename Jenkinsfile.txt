@@ -24,7 +24,7 @@ pipeline {
         }
 		//Code ends for stage PMD
 		
-		/Code starts for stage Compile
+		//Code starts for stage Compile
 		stage('Compile') {
             steps {
                 sh 'mvn compile'
@@ -45,6 +45,7 @@ pipeline {
             }
         }
 		//Code ends for stage Unit Test
+		
 		
 		
 		// *****ALL CODE TO BE ADDED ABOVE THIS COMMENT*****
